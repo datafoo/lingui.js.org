@@ -35,6 +35,7 @@
     "gatsby-plugin-root-import": "^2.0.4",
     "gatsby-source-filesystem": "^2.0.5",
     "gatsby-transformer-json": "^2.1.4",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.14.3"
   }
 }

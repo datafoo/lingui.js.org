@@ -6,3 +6,12 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+# Sphinx build files
+.buildinfo
+environment.pickle
+globalcontext.json
+last_build
+objects.inv
+sitemap.xml
+
