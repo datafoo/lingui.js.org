@@ -1,0 +1,736 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.0.27"/><title data-react-helmet="true">LinguiJS - Documentation</title><style data-styled="lepxmZ iKEMxF gxgoc jyXVmE hopARQ xFSrV cIJhbe kitsso dUyFSw fPQkfb ikQkSY" data-styled-version="4.0.2">
+/* sc-component-id: sc-global-898809793 */
+svg:not(:root).svg-inline--fa{overflow:visible;} .svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em;} .svg-inline--fa.fa-lg{vertical-align:-.225em;} .svg-inline--fa.fa-w-1{width:0.0625em;} .svg-inline--fa.fa-w-2{width:0.125em;} .svg-inline--fa.fa-w-3{width:0.1875em;} .svg-inline--fa.fa-w-4{width:0.25em;} .svg-inline--fa.fa-w-5{width:0.3125em;} .svg-inline--fa.fa-w-6{width:0.375em;} .svg-inline--fa.fa-w-7{width:0.4375em;} .svg-inline--fa.fa-w-8{width:0.5em;} .svg-inline--fa.fa-w-9{width:0.5625em;} .svg-inline--fa.fa-w-10{width:0.625em;} .svg-inline--fa.fa-w-11{width:0.6875em;} .svg-inline--fa.fa-w-12{width:0.75em;} .svg-inline--fa.fa-w-13{width:0.8125em;} .svg-inline--fa.fa-w-14{width:0.875em;} .svg-inline--fa.fa-w-15{width:0.9375em;} .svg-inline--fa.fa-w-16{width:1em;} .svg-inline--fa.fa-w-17{width:1.0625em;} .svg-inline--fa.fa-w-18{width:1.125em;} .svg-inline--fa.fa-w-19{width:1.1875em;} .svg-inline--fa.fa-w-20{width:1.25em;} .svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto;} .svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto;} .svg-inline--fa.fa-border{height:1.5em;} .svg-inline--fa.fa-li{width:2em;} .svg-inline--fa.fa-fw{width:1.25em;} .fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;} .fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em;} .fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;} .fa-layers-text,.fa-layers-counter{display:inline-block;position:absolute;text-align:center;} .fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;} .fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(0.25);-webkit-transform:scale(0.25);-ms-transform:scale(0.25);transform:scale(0.25);-webkit-transform-origin:top right;-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right;} .fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(0.25);-webkit-transform:scale(0.25);-ms-transform:scale(0.25);transform:scale(0.25);-webkit-transform-origin:bottom right;-webkit-transform-origin:bottom right;-ms-transform-origin:bottom right;transform-origin:bottom right;} .fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(0.25);-webkit-transform:scale(0.25);-ms-transform:scale(0.25);transform:scale(0.25);-webkit-transform-origin:bottom left;-webkit-transform-origin:bottom left;-ms-transform-origin:bottom left;transform-origin:bottom left;} .fa-layers-top-right{right:0;top:0;-webkit-transform:scale(0.25);-webkit-transform:scale(0.25);-ms-transform:scale(0.25);transform:scale(0.25);-webkit-transform-origin:top right;-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right;} .fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(0.25);-webkit-transform:scale(0.25);-ms-transform:scale(0.25);transform:scale(0.25);-webkit-transform-origin:top left;-webkit-transform-origin:top left;-ms-transform-origin:top left;transform-origin:top left;} .fa-lg{font-size:1.33333em;line-height:0.75em;vertical-align:-.0667em;} .fa-xs{font-size:.75em;} .fa-sm{font-size:.875em;} .fa-1x{font-size:1em;} .fa-2x{font-size:2em;} .fa-3x{font-size:3em;} .fa-4x{font-size:4em;} .fa-5x{font-size:5em;} .fa-6x{font-size:6em;} .fa-7x{font-size:7em;} .fa-8x{font-size:8em;} .fa-9x{font-size:9em;} .fa-10x{font-size:10em;} .fa-fw{text-align:center;width:1.25em;} .fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0;} .fa-ul > li{position:relative;} .fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit;} .fa-border{border:solid 0.08em #eee;border-radius:.1em;padding:.2em .25em .15em;} .fa-pull-left{float:left;} .fa-pull-right{float:right;} .fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left{margin-right:.3em;} .fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right{margin-left:.3em;} .fa-spin{-webkit-animation:fa-spin 2s infinite linear;-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear;} .fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8);} @-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}} @-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}} @keyframes fa-spin{0%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}} .fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);} .fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);} .fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg);} .fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1,1);-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1);} .fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1,-1);-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1);} .fa-flip-horizontal.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(-1,-1);-webkit-transform:scale(-1,-1);-ms-transform:scale(-1,-1);transform:scale(-1,-1);} :root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{-webkit-filter:none;-webkit-filter:none;filter:none;} .fa-stack{display:inline-block;height:2em;position:relative;width:2em;} .fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;} .svg-inline--fa.fa-stack-1x{height:1em;width:1em;} .svg-inline--fa.fa-stack-2x{height:2em;width:2em;} .fa-inverse{color:#fff;} .sr-only{border:0;-webkit-clip:rect(0,0,0,0);clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;} .sr-only-focusable:active,.sr-only-focusable:focus{-webkit-clip:auto;clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;} *{box-sizing:inherit;} *:before{box-sizing:inherit;} *:after{box-sizing:inherit;} html,body{margin:0;padding:0;height:100%;width:100%;} html{box-sizing:border-box;overflow-y:scroll;} body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.2;color:black;}
+/* sc-component-id: Layout__Content-galus3-1 */
+.kitsso{padding:0 20px;margin:0 auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-top:30px;} @media (min-width:48.75em){.kitsso{width:90%;}} @media (min-width:83.75em){.kitsso{max-width:1260px;}} @media (min-width:37.5em){.kitsso{margin-top:40px;}} @media (min-width:83.75em){.kitsso{margin-top:50px;}}
+/* sc-component-id: Layout__Header-galus3-2 */
+.lepxmZ{position:fixed;z-index:1;width:100%;top:0;left:0;color:#d62727;background-color:#fff;border-bottom:3px solid #d62727;font-weight:bold;}
+/* sc-component-id: Layout__HeaderContent-galus3-3 */
+.iKEMxF{padding:0 20px;margin:0 auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:calc(30px - 3px);} @media (min-width:48.75em){.iKEMxF{width:90%;}} @media (min-width:83.75em){.iKEMxF{max-width:1260px;}} @media (min-width:37.5em){.iKEMxF{height:calc(40px - 3px);}} @media (min-width:83.75em){.iKEMxF{height:calc(50px - 3px);}}
+/* sc-component-id: Layout__Brand-galus3-4 */
+.gxgoc{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-right:10px;} .gxgoc span{display:none;} @media (min-width:37.5em){.gxgoc{width:calc(100% / 5);color:#d62727;-webkit-text-decoration:none;text-decoration:none;}.gxgoc span{display:inline;}.gxgoc sub{font-weight:normal;}}
+/* sc-component-id: Layout__BrandIcon-galus3-5 */
+.jyXVmE{height:30px;width:30px;margin-right:10px;background-size:cover;background-image:url(/static/brand-icon-cb01f4f72becfcd946c5c74995ce1576.png);} .Layout__Brand-galus3-4:hover .jyXVmE{background-image:url(/static/brand-icon-hover-8e02666c1b2bca263a7bd934895481ff.png);}
+/* sc-component-id: Layout__SiteNavigation-galus3-6 */
+.hopARQ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}
+/* sc-component-id: Layout__SiteLink-galus3-7 */
+.xFSrV{color:#d62727;-webkit-text-decoration:none;text-decoration:none;}
+/* sc-component-id: Layout__SocialLinks-galus3-8 */
+.cIJhbe{width:calc(100% / 6);} .cIJhbe a{font-weight:normal;color:#d62727;-webkit-text-decoration:none;text-decoration:none;}
+/* sc-component-id: DocumentationPage__Content-b67vf7-0 */
+.dUyFSw .headerlink{display:none;} .dUyFSw h1{margin-top:80px;font-size:60px;line-height:65px;font-weight:700;} .dUyFSw h2{font-size:35px;border-top:1px solid #ececec;margin-top:44px;padding-top:40px;line-height:1.2;} .dUyFSw h3{font-size:25px;line-height:1.3;padding-top:45px;} .dUyFSw a{color:black;background-color:rgba(255,208,193,0.2);border-bottom:1px solid #f4511a;-webkit-text-decoration:none;text-decoration:none;} .dUyFSw a:hover{background-color:rgb(255,208,193);} .dUyFSw p{margin-top:1em;line-height:1.5;max-width:42em;} .dUyFSw .highlight{margin:25px -30px;padding:0 15px;border-radius:10px;overflow:auto;background-color:#ffffcc;} .dUyFSw .highlight pre{font-size:1em;margin:1rem;} .dUyFSw .highlight{background-color:#002b36;color:#93a1a1;} .dUyFSw .highlight .c{color:#586e75;} .dUyFSw .highlight .err{color:#93a1a1;} .dUyFSw .highlight .g{color:#93a1a1;} .dUyFSw .highlight .k{color:#859900;} .dUyFSw .highlight .l{color:#93a1a1;} .dUyFSw .highlight .n{color:#93a1a1;} .dUyFSw .highlight .o{color:#859900;} .dUyFSw .highlight .x{color:#cb4b16;} .dUyFSw .highlight .p{color:#93a1a1;} .dUyFSw .highlight .cm{color:#586e75;} .dUyFSw .highlight .cp{color:#859900;} .dUyFSw .highlight .c1{color:#586e75;} .dUyFSw .highlight .cs{color:#859900;} .dUyFSw .highlight .gd{color:#2aa198;} .dUyFSw .highlight .ge{font-style:italic;} .dUyFSw .highlight .gr{color:#dc322f;} .dUyFSw .highlight .gh{color:#cb4b16;} .dUyFSw .highlight .gi{color:#859900;} .dUyFSw .highlight .go{color:#93a1a1;} .dUyFSw .highlight .gp{color:#93a1a1;} .dUyFSw .highlight .gs{font-weight:bold;} .dUyFSw .highlight .gu{color:#cb4b16;} .dUyFSw .highlight .gt{color:#93a1a1;} .dUyFSw .highlight .kc{color:#cb4b16;} .dUyFSw .highlight .kd{color:#268bd2;} .dUyFSw .highlight .kn{color:#859900;} .dUyFSw .highlight .kp{color:#859900;} .dUyFSw .highlight .kr{color:#268bd2;} .dUyFSw .highlight .kt{color:#dc322f;} .dUyFSw .highlight .ld{color:#93a1a1;} .dUyFSw .highlight .m{color:#2aa198;} .dUyFSw .highlight .s{color:#2aa198;} .dUyFSw .highlight .na{color:#93a1a1;} .dUyFSw .highlight .nb{color:#b58900;} .dUyFSw .highlight .nc{color:#268bd2;} .dUyFSw .highlight .no{color:#cb4b16;} .dUyFSw .highlight .nd{color:#268bd2;} .dUyFSw .highlight .ni{color:#cb4b16;} .dUyFSw .highlight .ne{color:#cb4b16;} .dUyFSw .highlight .nf{color:#268bd2;} .dUyFSw .highlight .nl{color:#93a1a1;} .dUyFSw .highlight .nn{color:#93a1a1;} .dUyFSw .highlight .nx{color:#93a1a1;} .dUyFSw .highlight .py{color:#93a1a1;} .dUyFSw .highlight .nt{color:#268bd2;} .dUyFSw .highlight .nv{color:#268bd2;} .dUyFSw .highlight .ow{color:#859900;} .dUyFSw .highlight .w{color:#93a1a1;} .dUyFSw .highlight .mf{color:#2aa198;} .dUyFSw .highlight .mh{color:#2aa198;} .dUyFSw .highlight .mi{color:#2aa198;} .dUyFSw .highlight .mo{color:#2aa198;} .dUyFSw .highlight .sb{color:#586e75;} .dUyFSw .highlight .sc{color:#2aa198;} .dUyFSw .highlight .sd{color:#93a1a1;} .dUyFSw .highlight .s2{color:#2aa198;} .dUyFSw .highlight .se{color:#cb4b16;} .dUyFSw .highlight .sh{color:#93a1a1;} .dUyFSw .highlight .si{color:#2aa198;} .dUyFSw .highlight .sx{color:#2aa198;} .dUyFSw .highlight .sr{color:#dc322f;} .dUyFSw .highlight .s1{color:#2aa198;} .dUyFSw .highlight .ss{color:#2aa198;} .dUyFSw .highlight .bp{color:#268bd2;} .dUyFSw .highlight .vc{color:#268bd2;} .dUyFSw .highlight .vg{color:#268bd2;} .dUyFSw .highlight .vi{color:#268bd2;} .dUyFSw .highlight .il{color:#2aa198;} .dUyFSw span.pre{background-color:rgba(255,229,100,0.2);} .dUyFSw .admonition{margin:25px -30px;padding:0 15px;border-radius:10px;overflow:auto;border-left:5px solid transparent;} .dUyFSw .admonition a{font-weight:bold;-webkit-text-decoration:none;text-decoration:none;background:none;border:none;} .dUyFSw .admonition a:hover{border:none;background:none;-webkit-text-decoration:underline;text-decoration:underline;} .dUyFSw .admonition.note{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6;} .dUyFSw .admonition.note a{color:#2b542c;} .dUyFSw .admonition.hint{color:#31708f;background-color:#d9edf7;border-color:#bce8f1;} .dUyFSw .admonition.hint a{color:#245269;} .dUyFSw .admonition.warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc;} .dUyFSw .admonition.warning a{color:#66512c;} .dUyFSw .admonition.danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1;} .dUyFSw .admonition.danger a{color:#843534;} .dUyFSw ul,.dUyFSw ol{margin:0;margin-left:0;padding-left:0;line-height:1.7;max-width:42em;} .dUyFSw li{padding:0;} .dUyFSw dl dt{font-weight:bold;margin-bottom:12px;} .dUyFSw dl dd{margin:0 0 12px 24px;line-height:24px;}
+/* sc-component-id: DocumentationPage__Nav-b67vf7-1 */
+.fPQkfb{-webkit-flex:0 0 300px;-ms-flex:0 0 300px;flex:0 0 300px;margin-left:80px;border-left:1px solid rgb(236,236,236);}
+/* sc-component-id: DocumentationPage__NavContent-b67vf7-2 */
+.ikQkSY{height:calc(100vh - 30px);position:fixed;z-index:2;overflow-y:auto;margin-right:-999px;padding-right:999px;background-color:rgb(247,247,247);opacity:1 !important;} @media (min-width:37.5em){.ikQkSY{height:calc(100vh - 40px);}} @media (min-width:83.75em){.ikQkSY{height:calc(100vh - 50px);}} .ikQkSY ul{list-style:none;padding-left:20px;} .ikQkSY ul a{color:rgb(26,26,26);display:inline-block;margin-top:5px;-webkit-text-decoration:none;text-decoration:none;} .ikQkSY ul a:hover{color:rgb(109,109,109);} .ikQkSY > ul > li > a{color:rgb(26,26,26);font-size:14px;font-weight:700;line-height:3;text-transform:uppercase;-webkit-letter-spacing:0.08em;-moz-letter-spacing:0.08em;-ms-letter-spacing:0.08em;letter-spacing:0.08em;}</style><link as="script" rel="preload" href="/0-83e9d049abd79c8c38d4.js"/><link as="script" rel="preload" href="/component---src-components-documentation-page-js-f865c6eb913af995db59.js"/><link as="script" rel="preload" href="/app-972b1f161ed65d995355.js"/><link as="script" rel="preload" href="/webpack-runtime-778bfcb243176a3265a9.js"/><link rel="preload" href="/static/d/651/path---docs-tutorials-react-16-b-1f1-MQQczGfl8NWNVXyMzUYO1bGBciM.json" as="fetch" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="Layout__Header-galus3-2 lepxmZ"><div class="Layout__HeaderContent-galus3-3 iKEMxF"><a href="/" class="Layout__Brand-galus3-4 gxgoc"><div class="Layout__BrandIcon-galus3-5 jyXVmE"></div> <span>Lingui<sub>JS</sub></span></a><nav class="Layout__SiteNavigation-galus3-6 hopARQ"><a href="/docs/" class="Layout__SiteLink-galus3-7 xFSrV">Documentation</a></nav><div class="Layout__SocialLinks-galus3-8 cIJhbe"><a href="https://github.com/lingui/js-lingui/"><svg aria-hidden="true" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> GitHub</a></div></div></div><div class="Layout__Content-galus3-1 kitsso"><article class="DocumentationPage__Content-b67vf7-0 dUyFSw"><div class="section" id="tutorial-internationalization-of-react-apps">
+<span id="react-tutorial-label"></span><h1>Tutorial - Internationalization of React apps<a class="headerlink" href="#tutorial-internationalization-of-react-apps" title="Permalink to this headline">¶</a></h1>
+<p>Through this tutorial, we’ll learn how to add internationalization
+to an existing application in React JS.</p>
+<div class="section" id="let-s-start">
+<h2>Let’s Start<a class="headerlink" href="#let-s-start" title="Permalink to this headline">¶</a></h2>
+<p>We’re going to translate the following app:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// index.js</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">render</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react-dom&#39;</span>
+<span class="kr">import</span> <span class="nx">Inbox</span> <span class="nx">from</span> <span class="s1">&#39;./Inbox.js&#39;</span>
+
+<span class="kr">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">&lt;</span><span class="nt">Inbox</span> <span class="p">/&gt;</span>
+
+<span class="nx">render</span><span class="p">(&lt;</span><span class="nt">App</span> <span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;app&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// Inbox.js</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span>
+
+<span class="kr">const</span> <span class="nx">Inbox</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">messages</span><span class="p">,</span> <span class="nx">markAsRead</span><span class="p">,</span> <span class="nx">user</span> <span class="p">})</span> <span class="p">=&gt;</span> <span class="p">{</span>
+   <span class="kr">const</span> <span class="nx">messagesCount</span> <span class="o">=</span> <span class="nx">messages</span><span class="p">.</span><span class="nx">length</span>
+   <span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">lastLogin</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">user</span>
+
+   <span class="k">return</span> <span class="p">(</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">Message</span> <span class="nx">Inbox</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="nx">See</span> <span class="nx">all</span> <span class="p">&lt;</span><span class="nt">Link</span> <span class="na">to</span><span class="o">=</span><span class="s">&quot;/unread&quot;</span><span class="p">&gt;</span><span class="nx">unread</span> <span class="nx">messages</span><span class="p">&lt;/</span><span class="nt">Link</span><span class="p">&gt;{</span><span class="s2">&quot; or &quot;</span><span class="p">}</span>
+          <span class="p">&lt;</span><span class="nt">a</span> <span class="na">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">markAsRead</span><span class="p">}&gt;</span><span class="nx">mark</span> <span class="nx">them</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> <span class="nx">as</span> <span class="nx">read</span><span class="p">.</span>
+        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">{</span>
+            <span class="nx">messagesCount</span> <span class="o">===</span> <span class="mi">1</span>
+              <span class="o">?</span> <span class="s2">&quot;There&#39;s {messagesCount} message in your inbox.&quot;</span>
+              <span class="o">:</span> <span class="s2">&quot;There&#39;re {messagesCount} messages in your inbox.&quot;</span>
+          <span class="p">}</span>
+        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+          <span class="nx">Last</span> <span class="nx">login</span> <span class="nx">on</span> <span class="p">{</span><span class="nx">lastLogin</span><span class="p">}.</span>
+        <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+   <span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>As you can see, it’s a simple mailbox application with only one page.</p>
+</div>
+<div class="section" id="installing-linguijs">
+<h2>Installing LinguiJS<a class="headerlink" href="#installing-linguijs" title="Permalink to this headline">¶</a></h2>
+<p>Follow setup guide either for projects using <a class="reference internal" href="../setup-cra/"><span class="doc">LinguiJS with Create React App</span></a>
+or for general <a class="reference internal" href="../setup-react/"><span class="doc">React projects</span></a>.</p>
+</div>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p>We will directly start translating the <code class="docutils literal notranslate"><span class="pre">Inbox</span></code> component, but we need
+to complete one more step to setup our application.</p>
+<p>Components needs to be aware of their active language. All <a class="reference external" href="https://github.com/lingui/js-lingui">LinguiJS</a> components
+read translations and language settings from the React context. In order to get this
+information into the context, we need to wrap our application in
+<a class="reference internal" href="../../ref/react/#component-I18nProvider">&lt;I18nProvider&gt;</a> component.</p>
+<p>Let’s add all required imports and wrap our app inside <a class="reference internal" href="../../ref/react/#component-I18nProvider">&lt;I18nProvider&gt;</a>:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// index.js</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">render</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react-dom&#39;</span>
+<span class="kr">import</span> <span class="nx">Inbox</span> <span class="nx">from</span> <span class="s1">&#39;./Inbox.js&#39;</span>
+
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">I18nProvider</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/react&#39;</span>
+
+<span class="kr">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">(</span>
+  <span class="p">&lt;</span><span class="nt">I18nProvider</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">Inbox</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">I18nProvider</span><span class="p">&gt;</span>
+<span class="p">)</span>
+
+<span class="nx">render</span><span class="p">(&lt;</span><span class="nt">App</span> <span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;app&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>You might be wondering: how are we going to change the active language?
+Yes, that’s a great question, but we need to focus! We’re not going to change
+the language unless we have translated the message catalog. And we won’t have
+translated the catalog before we extract all messages from source.</p>
+<p class="last">Let’s deal with language switching later… but if you’re still curious,
+take a look at <a class="reference internal" href="../../guides/dynamic-loading-catalogs/#dynamic-loading-catalogs"><span class="std std-ref">example</span></a> with Redux and Webpack.</p>
+</div>
+</div>
+<div class="section" id="introducing-internationalization">
+<h2>Introducing internationalization<a class="headerlink" href="#introducing-internationalization" title="Permalink to this headline">¶</a></h2>
+<p>Now we’re finally going to <em>translate</em> our app. Actually, we aren’t going
+to <em>translate</em> from one language to another right now. Instead, we’re going to
+<em>prepare</em> our app for translation. This process is called
+<em>internationalization</em> and you should practice saying this word aloud until
+you’re able to say it three times very quickly.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">From now on, <em>internationalization</em> will be shortened to a common numeronym <em>i18n</em>.</p>
+</div>
+<p>Let’s start with the basics - static messages. These messages don’t have any variables,
+HTML or components inside. Just some text:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">Message</span> <span class="nx">Inbox</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>All we need to make this heading translatable is wrap it in <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a>
+macro:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Trans</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/macro&#39;</span><span class="p">;</span>
+
+<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Message</span> <span class="nx">Inbox</span><span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<div class="section" id="macros-vs-components">
+<h3>Macros vs. Components<a class="headerlink" href="#macros-vs-components" title="Permalink to this headline">¶</a></h3>
+<p>If you’re wondering what are macros and what’s the difference between macros and
+components, this short paragraph is for you.</p>
+<p>In general, macros are executed at compile time and they transform source code in
+some way. We use this feature in <a class="reference external" href="https://github.com/lingui/js-lingui">LinguiJS</a> to simplify writing messages.</p>
+<p>Under the hood, all JSX macros are transformed into <a class="reference internal" href="../../ref/react/#component-Trans">&lt;Trans&gt;</a> component.
+Take a look at this short example. This is what we write:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Trans</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/macro&#39;</span>
+
+<span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Hello</span> <span class="p">{</span><span class="nx">name</span><span class="p">}&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is how the code is transformed:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Trans</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/react&#39;</span>
+
+<span class="p">&lt;</span><span class="nt">Trans</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;Hello {name}&quot;</span> <span class="na">values</span><span class="o">=</span><span class="p">{{</span> <span class="nx">name</span> <span class="p">}}</span> <span class="p">/&gt;</span>
+</pre></div>
+</div>
+<p>See the difference? <a class="reference internal" href="../../ref/react/#component-Trans">&lt;Trans&gt;</a> component receives <code class="docutils literal notranslate"><span class="pre">id</span></code> prop with a message
+in ICU MessageFormat syntax. We could write it manually, but it’s just easier
+and shorter to write JSX as we’re used to and let macros to generate message for
+ourselves.</p>
+</div>
+<div class="section" id="extracting-messages">
+<h3>Extracting messages<a class="headerlink" href="#extracting-messages" title="Permalink to this headline">¶</a></h3>
+<p>Back to our project. It’s nice to use JSX and let macros generate messages under the
+hood. Let’s check that it actually works correctly.</p>
+<p>All messages from the source code must be extracted into external message catalogs.
+Message catalogs are interchange files between developers and translators. We’re
+going to have one file per language. Let’s enter command line for a while.</p>
+<p>We’re going to use <cite>CLI</cite> again. Run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command to extract messages:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ lingui extract
+
+No locales defined!
+
+(use &quot;lingui add-locale &lt;language&gt;&quot; to add one)
+</pre></div>
+</div>
+<p>Oops! Seems we forgot something. First we need to tell the CLI what locales we’re
+going to use in our app. Let’s start with two locales: <code class="docutils literal notranslate"><span class="pre">en</span></code> for English and <code class="docutils literal notranslate"><span class="pre">cs</span></code>
+for Czech:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ lingui add-locale en cs
+
+Added locale en.
+Added locale cs.
+
+(use &quot;lingui extract&quot; to extract messages)
+</pre></div>
+</div>
+<p>Everything went well and CLI guides us what to do next. Let’s run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command
+again:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ lingui extract
+
+Catalog statistics:
+┌──────────┬─────────────┬─────────┐
+│ Language │ Total count │ Missing │
+├──────────┼─────────────┼─────────┤
+│ cs       │      1      │    1    │
+│ en       │      1      │    1    │
+└──────────┴─────────────┴─────────┘
+
+(use &quot;lingui add-locale &lt;language&gt;&quot; to add more locales)
+(use &quot;lingui extract&quot; to update catalogs with new messages)
+(use &quot;lingui compile&quot; to compile catalogs for production)
+</pre></div>
+</div>
+<p>Nice! It seems it worked, we have two message catalogs (one per each locale) with
+1 message each. Let’s take a look at file <code class="docutils literal notranslate"><span class="pre">locale/cs/messages.json</span></code></p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+   <span class="nt">&quot;Message Inbox&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>That’s the message we’ve wrapped inside <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> macro!</p>
+<p>Let’s add a Czech translation:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+   <span class="nt">&quot;Message Inbox&quot;</span><span class="p">:</span> <span class="s2">&quot;Příchozí zprávy&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>If we run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command again, we’ll see that all Czech messages are translated:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ lingui extract
+
+Catalog statistics:
+┌──────────┬─────────────┬─────────┐
+│ Language │ Total count │ Missing │
+├──────────┼─────────────┼─────────┤
+│ cs       │      1      │    0    │
+│ en       │      1      │    1    │
+└──────────┴─────────────┴─────────┘
+
+(use &quot;lingui add-locale &lt;language&gt;&quot; to add more locales)
+(use &quot;lingui extract&quot; to update catalogs with new messages)
+(use &quot;lingui compile&quot; to compile catalogs for production)
+</pre></div>
+</div>
+<p>That’s great! So, how we’re going to load it into your app? <a class="reference external" href="https://github.com/lingui/js-lingui">LinguiJS</a> introduces
+concept of compiled message catalogs. Before we load messages into your app, we need
+to compile them. As you see in the help in command output, we use <a class="reference internal" href="../../ref/cli/#lingui-cli-compile"><code class="xref std std-cli docutils literal notranslate"><span class="pre">compile</span></code></a> for that:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ lingui compile
+
+Compiling message catalogs…
+Done!
+</pre></div>
+</div>
+<p>What just happened? If you look inside <code class="docutils literal notranslate"><span class="pre">locale</span></code> directory, you’ll see there’s a
+new file for each locale: <code class="docutils literal notranslate"><span class="pre">messages.js</span></code>. This file contains compiled message catalogs
+but also any locale specific data like plurals.</p>
+<p>Let’s load this file into our app and set active language to <code class="docutils literal notranslate"><span class="pre">cs</span></code>:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// index.js</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">render</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react-dom&#39;</span>
+<span class="kr">import</span> <span class="nx">Inbox</span> <span class="nx">from</span> <span class="s1">&#39;./Inbox.js&#39;</span>
+<span class="hll"><span class="kr">import</span> <span class="nx">catalogCs</span> <span class="nx">from</span> <span class="s1">&#39;./locale/cs/messages.js&#39;</span>
+</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">I18nProvider</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/react&#39;</span>
+
+<span class="kr">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">(</span>
+<span class="hll">  <span class="p">&lt;</span><span class="nt">I18nProvider</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;cs&quot;</span> <span class="na">catalogs</span><span class="o">=</span><span class="p">{{</span> <span class="nx">cs</span><span class="o">:</span> <span class="nx">catalogCs</span> <span class="p">}}&gt;</span>
+</span>    <span class="p">&lt;</span><span class="nt">Inbox</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">I18nProvider</span><span class="p">&gt;</span>
+<span class="p">)</span>
+
+<span class="nx">render</span><span class="p">(&lt;</span><span class="nt">App</span> <span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;app&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>When we run the app, we see the header is translated into Czech.</p>
+</div>
+<div class="section" id="summary-of-basic-workflow">
+<h3>Summary of basic workflow<a class="headerlink" href="#summary-of-basic-workflow" title="Permalink to this headline">¶</a></h3>
+<p>Let’s go through the workflow again:</p>
+<ol class="arabic simple">
+<li>Add an <a class="reference internal" href="../../ref/react/#component-I18nProvider">&lt;I18nProvider&gt;</a>, this component sets the active language and loads catalogs</li>
+<li>Wrap messages in <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> macro</li>
+<li>Run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command to generate message catalogs</li>
+<li>Translate message catalogs (send them to translators usually)</li>
+<li>Run <a class="reference internal" href="../../ref/cli/#lingui-cli-compile"><code class="xref std std-cli docutils literal notranslate"><span class="pre">compile</span></code></a> to create runtime catalogs</li>
+<li>Load runtime catalog</li>
+<li>Profit</li>
+</ol>
+<p>Steps 1 and 7 needs to be done only once per project and locale. Steps 2 to 5 becomes
+the common workflow how to internationalize the app.</p>
+<p>It isn’t necessary to extract/translate messages one by one. This usually happens
+in batches. When you finalizing your work or PR, run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> to generate latest
+message catalogs and before building the app for production, run <a class="reference internal" href="../../ref/cli/#lingui-cli-compile"><code class="xref std std-cli docutils literal notranslate"><span class="pre">compile</span></code></a>.</p>
+<p>For more info about CLI, checkout the <a class="reference internal" href="../cli/#tutorial-cli"><span class="std std-ref">CLI tutorial</span></a>.</p>
+</div>
+</div>
+<div class="section" id="formatting">
+<h2>Formatting<a class="headerlink" href="#formatting" title="Permalink to this headline">¶</a></h2>
+<p>Let’s move on to another paragraph in our project. This paragraph has some
+variables, some HTML and components inside:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="nx">See</span> <span class="nx">all</span> <span class="p">&lt;</span><span class="nt">Link</span> <span class="na">to</span><span class="o">=</span><span class="s">&quot;/unread&quot;</span><span class="p">&gt;</span><span class="nx">unread</span> <span class="nx">messages</span><span class="p">&lt;/</span><span class="nt">Link</span><span class="p">&gt;{</span><span class="s2">&quot; or &quot;</span><span class="p">}</span>
+   <span class="p">&lt;</span><span class="nt">a</span> <span class="na">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">markAsRead</span><span class="p">}&gt;</span><span class="nx">mark</span> <span class="nx">them</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> <span class="nx">as</span> <span class="nx">read</span><span class="p">.</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Although it looks complex, there’s really nothing special here. Just wrap the content
+of paragraph in <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> and let the macro do the magic:</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span>
+      See all <span class="p">&lt;</span><span class="nt">Link</span> <span class="na">to</span><span class="o">=</span><span class="s">&quot;/unread&quot;</span><span class="p">&gt;</span>unread messages<span class="p">&lt;/</span><span class="nt">Link</span><span class="p">&gt;</span>{&quot; or &quot;}
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">onClick</span><span class="o">=</span><span class="s">{markAsRead}</span><span class="p">&gt;</span>mark them<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> as read.
+   <span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Spooky, right? Let’s see how this message actually looks in message catalog.
+Run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command and take a look at the message:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">See</span> <span class="nb">all</span> <span class="o">&lt;</span><span class="mi">0</span><span class="o">&gt;</span><span class="n">unread</span> <span class="n">messages</span><span class="o">&lt;/</span><span class="mi">0</span><span class="o">&gt;</span> <span class="ow">or</span> <span class="o">&lt;</span><span class="mi">1</span><span class="o">&gt;</span><span class="n">mark</span> <span class="n">them</span><span class="o">&lt;/</span><span class="mi">1</span><span class="o">&gt;</span> <span class="k">as</span> <span class="n">read</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>You may notice that components and html tags are replaced with indexed
+tags (<cite>&lt;0&gt;</cite>, <cite>&lt;1&gt;</cite>). This is a little extension to the ICU MessageFormat which
+allows rich-text formatting inside translations. Components and their props
+remains in the source code and don’t scare our translators. Also, in case we
+change a <code class="docutils literal notranslate"><span class="pre">className</span></code>, we don’t need to update our message catalogs. How
+cool is that?</p>
+<div class="section" id="jsx-to-messageformat-transformations">
+<h3>JSX to MessageFormat transformations<a class="headerlink" href="#jsx-to-messageformat-transformations" title="Permalink to this headline">¶</a></h3>
+<p>It may look a bit <em>hackish</em> at first sight, but these transformations are
+actually very easy, intuitive and feel very <em>Reactish</em>. We don’t have to think
+about the MessageFormat, because it’s created by the library. We write our
+components in the same way as we’re used to and simply wrap text in
+<a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> macro.</p>
+<p>Let’s see some examples with MessageFormat equivalents:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// Expressions</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Hello</span> <span class="p">{</span><span class="nx">name</span><span class="p">}&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="c1">// Hello {name}</span>
+</pre></div>
+</div>
+<p>Any expressions are allowed, not just simple variables. The only difference is,
+the variable name won’t be included in the extracted message:</p>
+<p>Simple variable -&gt; named argument:</p>
+<blockquote>
+<div><div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Hello</span> <span class="p">{</span><span class="nx">name</span><span class="p">}&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="c1">// Hello {name}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Any expression -&gt; positional argument:</p>
+<blockquote>
+<div><div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Hello</span> <span class="p">{</span><span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="p">}&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="c1">// Hello {0}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Object, arrays, function calls -&gt; positional argument:</p>
+<blockquote>
+<div><div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">The</span> <span class="nx">random</span> <span class="nx">number</span> <span class="nx">is</span> <span class="p">{</span><span class="nb">Math</span><span class="p">.</span><span class="nx">rand</span><span class="p">()}&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="c1">// The random number is {0}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Components might get tricky, but like we saw, it’s really easy:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Read</span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;/more&quot;</span><span class="p">&gt;</span><span class="nx">more</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;.&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+<span class="c1">// Read &lt;0&gt;more&lt;/0&gt;.</span>
+</pre></div>
+</div>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span>
+   <span class="nx">Dear</span> <span class="nx">Watson</span><span class="p">,&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+   <span class="nx">it</span><span class="s1">&#39;s not exactly what I had in my mind.</span>
+<span class="s1">&lt;/Trans&gt;</span>
+<span class="s1">// Dead Watson,&lt;0/&gt;it&#39;</span><span class="nx">s</span> <span class="nx">not</span> <span class="nx">exactly</span> <span class="nx">what</span> <span class="nx">I</span> <span class="nx">had</span> <span class="k">in</span> <span class="nx">my</span> <span class="nx">mind</span><span class="p">.</span>
+</pre></div>
+</div>
+<p>Obviously, you can also shoot yourself in the foot. Some expressions are <em>valid</em>
+and won’t throw any error, it doesn’t make any sense to write:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// Oh, seriously?</span>
+<span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span>
+   <span class="p">{</span><span class="nx">isOpen</span> <span class="o">&amp;&amp;</span> <span class="p">&lt;</span><span class="nt">Modal</span> <span class="p">/&gt;}</span>
+<span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Everytime you’re in doubt, imagine how the final message should look like.</p>
+</div>
+<div class="section" id="message-id">
+<h3>Message ID<a class="headerlink" href="#message-id" title="Permalink to this headline">¶</a></h3>
+<p>At this point we’re going to explain what message ID is and how to set it manually.</p>
+<p>Translators work with the <em>message catalogs</em> we saw above. No matter what format
+we use (gettext, xliff, json), it’s just mapping of
+message ID to the translation.</p>
+<p>Here’s an example of simple message catalog in <strong>Czech</strong> language:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="58%" />
+<col width="42%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Message ID</th>
+<th class="head">Translation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Monday</td>
+<td>Pondělí</td>
+</tr>
+<tr class="row-odd"><td>Tuesday</td>
+<td>Úterý</td>
+</tr>
+<tr class="row-even"><td>Wednesday</td>
+<td>Středa</td>
+</tr>
+</tbody>
+</table>
+<p>… and the same catalog in <strong>French</strong> language:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="58%" />
+<col width="42%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Message ID</th>
+<th class="head">Translation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Monday</td>
+<td>Lundi</td>
+</tr>
+<tr class="row-odd"><td>Tuesday</td>
+<td>Mardi</td>
+</tr>
+<tr class="row-even"><td>Wednesday</td>
+<td>Mercredi</td>
+</tr>
+</tbody>
+</table>
+<p>The message ID is <em>what all catalogs have in common</em> – Lundi and Pondělí
+represent the same message in different languages. It’s also the same as the <code class="docutils literal notranslate"><span class="pre">id</span></code>
+prop in <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> macro.</p>
+<p>There are two common approaches to message IDs:</p>
+<ol class="arabic simple">
+<li>Use source language (e.g. English as in example above)</li>
+<li>Use a custom key (e.g. <code class="docutils literal notranslate"><span class="pre">weekday.monday</span></code>)</li>
+</ol>
+<p>Both approaches have their pros and cons and it’s not in the scope of this tutorial
+to compare them.</p>
+<p>By default, <a class="reference external" href="https://github.com/lingui/js-lingui">LinguiJS</a> generates message ID from the content of <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a>
+macro, which means it uses source language. However, we can easily override
+it by setting <code class="docutils literal notranslate"><span class="pre">id</span></code> prop manually:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;inbox.title&quot;</span><span class="p">&gt;</span><span class="nx">Message</span> <span class="nx">Inbox</span><span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This will generate:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;inbox.title&quot;</span> <span class="na">defaults</span><span class="o">=</span><span class="s">&quot;Message Inbox&quot;</span> <span class="p">/&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>In our message catalog, we’ll see <code class="docutils literal notranslate"><span class="pre">inbox.title</span></code> as message ID, but we also
+get <code class="docutils literal notranslate"><span class="pre">Message</span> <span class="pre">Inbox</span></code> as default translation for English language.</p>
+<p>For the rest of this tutorial, we’ll use auto-generated message IDs to keep
+it simple.</p>
+</div>
+</div>
+<div class="section" id="plurals">
+<h2>Plurals<a class="headerlink" href="#plurals" title="Permalink to this headline">¶</a></h2>
+<p>Let’s move on and add i18n to another text in our component:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="p">{</span>
+      <span class="nx">messagesCount</span> <span class="o">===</span> <span class="mi">1</span>
+         <span class="o">?</span> <span class="s2">&quot;There&#39;s {messagesCount} message in your inbox.&quot;</span>
+         <span class="o">:</span> <span class="s2">&quot;There&#39;re {messagesCount} messages in your inbox.&quot;</span>
+   <span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This message is a bit special, because it depends on the value of the <code class="docutils literal notranslate"><span class="pre">messagesCount</span></code>
+variable. Most languages use different forms of words when describing quantities
+- this is called <a class="reference external" href="https://en.wikipedia.org/wiki/Plural">pluralization</a>.</p>
+<p>What’s tricky is that different languages use different number of plural forms.
+For example, English has only two forms - singular and plural - as we can see
+in the example above. However, Czech language has three plural forms. Some
+languages have up to 6 plural forms and some don’t have plurals at all!</p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Plural forms for all languages can be found in the
+<a class="reference external" href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html">CLDR repository</a>.</p>
+</div>
+<div class="section" id="english-plural-rules">
+<h3>English plural rules<a class="headerlink" href="#english-plural-rules" title="Permalink to this headline">¶</a></h3>
+<p>How do we know which plural form we should use? It’s very simple:
+we, as developers, only need to know plural forms of the language we use in
+our source. Our component is written in English, so looking at
+<a class="reference external" href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#en">English plural rules</a> we’ll
+need just two forms:</p>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">one</span></code></dt>
+<dd>Singular form</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">other</span></code></dt>
+<dd>Plural form</dd>
+</dl>
+<p>We don’t need to select these forms manually. We’ll use <a class="reference internal" href="../../ref/macro/#jsxmacro-Plural">&lt;Plural&gt;</a>
+component, which takes a <code class="docutils literal notranslate"><span class="pre">value</span></code> prop and based on the active language, selects
+the right plural form:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">Plural</span>
+      <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+      <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox&quot;</span>
+      <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+   <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This component will render <code class="docutils literal notranslate"><span class="pre">There's</span> <span class="pre">1</span> <span class="pre">message</span> <span class="pre">in</span> <span class="pre">your</span> <span class="pre">inbox</span></code> when
+<code class="docutils literal notranslate"><span class="pre">messageCount</span> <span class="pre">=</span> <span class="pre">1</span></code> and <code class="docutils literal notranslate"><span class="pre">There're</span> <span class="pre">#</span> <span class="pre">messages</span> <span class="pre">in</span> <span class="pre">your</span> <span class="pre">inbox</span></code> for any other
+values of <code class="docutils literal notranslate"><span class="pre">messageCount</span></code>. <code class="docutils literal notranslate"><span class="pre">#</span></code> is a placeholder, which is replaced with <code class="docutils literal notranslate"><span class="pre">value</span></code>.</p>
+<p>Cool! Curious how this component is transformed under the hood and how the
+message looks in MessageFormat syntax? Run <a class="reference internal" href="../../ref/cli/#lingui-cli-extract"><code class="xref std std-cli docutils literal notranslate"><span class="pre">extract</span></code></a> command and find out by
+yourself:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="n">messagesCount</span><span class="p">,</span> <span class="n">plural</span><span class="p">,</span>
+   <span class="n">one</span> <span class="p">{</span><span class="n">There</span><span class="s1">&#39;s # message in your inbox}</span>
+   <span class="n">other</span> <span class="p">{</span><span class="n">There</span><span class="s1">&#39;re # messages in your inbox}}</span>
+</pre></div>
+</div>
+<p>In catalog you’ll see the message in one line. Here we wrapped it to make it more readable.</p>
+<p>The <a class="reference internal" href="../../ref/macro/#jsxmacro-Plural">&lt;Plural&gt;</a> is gone and replaced with <a class="reference internal" href="../../ref/react/#component-Trans">&lt;Trans&gt;</a> again!
+The sole purpose of <a class="reference internal" href="../../ref/macro/#jsxmacro-Plural">&lt;Plural&gt;</a> is to generate proper syntax in message.</p>
+<p>Things are getting a bit more complicated, but i18n is a complex process. At
+least we don’t have to write this message manually!</p>
+</div>
+<div class="section" id="beware-of-zeroes">
+<h3>Beware of zeroes!<a class="headerlink" href="#beware-of-zeroes" title="Permalink to this headline">¶</a></h3>
+<p>Just a short detour, because it’s a common misunderstanding.</p>
+<p>You may wonder, why the following code doesn’t work as expected:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Plural</span>
+   <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+   <span class="na">zero</span><span class="o">=</span><span class="s">&quot;There&#39;re no messages&quot;</span>
+   <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox&quot;</span>
+   <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+<span class="p">/&gt;</span>
+</pre></div>
+</div>
+<p>This component will render <code class="docutils literal notranslate"><span class="pre">There're</span> <span class="pre">0</span> <span class="pre">messages</span> <span class="pre">in</span> <span class="pre">your</span> <span class="pre">inbox</span></code> for
+<code class="docutils literal notranslate"><span class="pre">messagesCount</span> <span class="pre">=</span> <span class="pre">0</span></code>. Why so? Because English doesn’t have <code class="docutils literal notranslate"><span class="pre">zero</span></code>
+<a class="reference external" href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#en">plural form</a>.</p>
+<p>Looking at <a class="reference external" href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#en">English plural rules</a>, it’s:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="5%" />
+<col width="95%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">N</th>
+<th class="head">Form</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>0</td>
+<td>other</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>one</td>
+</tr>
+<tr class="row-even"><td>n</td>
+<td>other (anything else)</td>
+</tr>
+</tbody>
+</table>
+<p>However, decimal numbers (even <code class="docutils literal notranslate"><span class="pre">1.0</span></code>) use <code class="docutils literal notranslate"><span class="pre">other</span></code> form every time:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">There</span><span class="s1">&#39;re 0.0 messages in your inbox.</span>
+</pre></div>
+</div>
+<p>Aren’t languages beautiful?</p>
+</div>
+<div class="section" id="exact-forms">
+<h3>Exact forms<a class="headerlink" href="#exact-forms" title="Permalink to this headline">¶</a></h3>
+<p>Alright, back to our example. What if we really want to render <code class="docutils literal notranslate"><span class="pre">There're</span> <span class="pre">no</span> <span class="pre">messages</span></code>
+for <code class="docutils literal notranslate"><span class="pre">messagesCount</span> <span class="pre">=</span> <span class="pre">0</span></code>? Exact forms to the rescue!</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Plural</span>
+   <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+   <span class="na">_0</span><span class="o">=</span><span class="s">&quot;There&#39;re no messages&quot;</span>
+   <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox&quot;</span>
+   <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+<span class="p">/&gt;</span>
+</pre></div>
+</div>
+<p>What’s that <code class="docutils literal notranslate"><span class="pre">_0</span></code>? MessageFormat allows exact forms, like <code class="docutils literal notranslate"><span class="pre">=0</span></code>. However,
+React props can’t start with <code class="docutils literal notranslate"><span class="pre">=</span></code> and can’t be numbers either, so we need to
+write <code class="docutils literal notranslate"><span class="pre">_N</span></code> instead of <code class="docutils literal notranslate"><span class="pre">=0</span></code>.</p>
+<p>It works with any number, so we can go wild and customize it this way:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Plural</span>
+   <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+   <span class="na">_0</span><span class="o">=</span><span class="s">&quot;There&#39;re no messages&quot;</span>
+   <span class="na">_1</span><span class="o">=</span><span class="s">&quot;There&#39;s one message in your inbox&quot;</span>
+   <span class="na">_2</span><span class="o">=</span><span class="s">&quot;There&#39;re two messages in your inbox, that&#39;s not much!&quot;</span>
+   <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+<span class="p">/&gt;</span>
+</pre></div>
+</div>
+<p>… and so on. Exact matches always take precedence before plural forms.</p>
+</div>
+<div class="section" id="variables-and-components">
+<h3>Variables and components<a class="headerlink" href="#variables-and-components" title="Permalink to this headline">¶</a></h3>
+<p>Let’s go back to our original pluralized message:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">Plural</span>
+      <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+      <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox&quot;</span>
+      <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+   <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>What if we want to use variables or components inside messages? Easy! Either
+wrap messages in <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a> macro or use template literals
+(suppose we have an variable <code class="docutils literal notranslate"><span class="pre">name</span></code>):</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span>&lt;p&gt;
+   &lt;Plural
+      value={messagesCount}
+      one={`There&#39;s # message in your inbox, ${name}`}
+      other={&lt;Trans&gt;There&#39;re &lt;strong&gt;#&lt;/strong&gt; messages in your inbox, {name}&lt;/Trans&gt;}
+   /&gt;
+&lt;/p&gt;
+</pre></div>
+</div>
+<p>We can use nested macros, components, variables, expressions, really anything.</p>
+<p>This gives us enough flexibility for all usecases.</p>
+</div>
+<div class="section" id="custom-message-id">
+<h3>Custom message ID<a class="headerlink" href="#custom-message-id" title="Permalink to this headline">¶</a></h3>
+<p>Let’s finish this with a short example of plurals with custom ID. We can
+pass an <code class="docutils literal notranslate"><span class="pre">id</span></code> prop to <a class="reference internal" href="../../ref/macro/#jsxmacro-Plural">&lt;Plural&gt;</a> as we would to <a class="reference internal" href="../../ref/macro/#jsxmacro-Trans">&lt;Trans&gt;</a>:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">Plural</span>
+      <span class="na">id</span><span class="o">=</span><span class="s">&quot;Inbox.messagesCount&quot;</span>
+      <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+      <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox&quot;</span>
+      <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox&quot;</span>
+   <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="formats">
+<h2>Formats<a class="headerlink" href="#formats" title="Permalink to this headline">¶</a></h2>
+<p>The last message in our component is again a bit specific:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+   <span class="nx">Last</span> <span class="nx">login</span> <span class="nx">on</span> <span class="p">{</span><span class="nx">lastLogin</span><span class="p">}.</span>
+<span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">lastLogin</span></code> is a date object and we need to format it properly. Dates are
+formatted differently in different languages, but we don’t have
+to do manually. The heavylifting is done in <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl">Intl object</a>,
+we’ll just use <a class="reference internal" href="../../ref/macro/#jsxmacro-DateFormat">&lt;DateFormat&gt;</a> macro:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span>
+      <span class="nx">Last</span> <span class="nx">login</span> <span class="nx">on</span> <span class="p">&lt;</span><span class="nt">DateFormat</span> <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">lastLogin</span><span class="p">}</span> <span class="p">/&gt;.</span>
+   <span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This will format the date using the conventional format for the active language.</p>
+</div>
+<div class="section" id="review">
+<h2>Review<a class="headerlink" href="#review" title="Permalink to this headline">¶</a></h2>
+<p>After all modifications, the final component with i18n looks like this:</p>
+<div class="highlight-jsx notranslate"><div class="highlight"><pre><span></span><span class="c1">// Inbox.js</span>
+<span class="kr">import</span> <span class="nx">React</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">Trans</span><span class="p">,</span> <span class="nx">Plural</span><span class="p">,</span> <span class="nx">DateFormat</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@lingui/macro&#39;</span>
+
+<span class="kr">const</span> <span class="nx">Inbox</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">messages</span><span class="p">,</span> <span class="nx">markAsRead</span><span class="p">,</span> <span class="nx">user</span> <span class="p">})</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">messagesCount</span> <span class="o">=</span> <span class="nx">messages</span><span class="p">.</span><span class="nx">length</span>
+  <span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">lastLogin</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">user</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Message</span> <span class="nx">Inbox</span><span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span>
+            <span class="nx">See</span> <span class="nx">all</span> <span class="p">&lt;</span><span class="nt">Link</span> <span class="na">to</span><span class="o">=</span><span class="s">&quot;/unread&quot;</span><span class="p">&gt;</span><span class="nx">unread</span> <span class="nx">messages</span><span class="p">&lt;/</span><span class="nt">Link</span><span class="p">&gt;{</span><span class="s2">&quot; or &quot;</span><span class="p">}</span>
+            <span class="p">&lt;</span><span class="nt">a</span> <span class="na">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">markAsRead</span><span class="p">}&gt;</span><span class="nx">mark</span> <span class="nx">them</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> <span class="nx">as</span> <span class="nx">read</span><span class="p">.</span>
+          <span class="p">&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">Plural</span>
+            <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">messagesCount</span><span class="p">}</span>
+            <span class="na">one</span><span class="o">=</span><span class="s">&quot;There&#39;s # message in your inbox.&quot;</span>
+            <span class="na">other</span><span class="o">=</span><span class="s">&quot;There&#39;re # messages in your inbox.&quot;</span>
+          <span class="p">/&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">Trans</span><span class="p">&gt;</span><span class="nx">Last</span> <span class="nx">login</span> <span class="nx">on</span> <span class="p">&lt;</span><span class="nt">DateFormat</span> <span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">lastLogin</span><span class="p">}</span> <span class="p">/&gt;.&lt;/</span><span class="nt">Trans</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>That’s all for this tutorial! Checkout the reference documentation or various guide
+in the documentation for more info and happy internationalizing!</p>
+</div>
+<div class="section" id="further-reading">
+<h2>Further reading<a class="headerlink" href="#further-reading" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="../ref/react.html">&#64;lingui/react reference documentation</a></li>
+<li><a class="reference external" href="../ref/cli.html">&#64;lingui/cli reference documentation</a></li>
+<li><a class="reference external" href="../guides/plurals.html">Pluralization Guide</a></li>
+</ul>
+</div>
+</div>
+</article><nav class="DocumentationPage__Nav-b67vf7-1 fPQkfb"><nav class="DocumentationPage__NavContent-b67vf7-2 ikQkSY"><ul>
+<li><a class="reference internal" href="#">Tutorial - Internationalization of React apps</a><ul>
+<li><a class="reference internal" href="#let-s-start">Let’s Start</a></li>
+<li><a class="reference internal" href="#installing-linguijs">Installing LinguiJS</a></li>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#introducing-internationalization">Introducing internationalization</a><ul>
+<li><a class="reference internal" href="#macros-vs-components">Macros vs. Components</a></li>
+<li><a class="reference internal" href="#extracting-messages">Extracting messages</a></li>
+<li><a class="reference internal" href="#summary-of-basic-workflow">Summary of basic workflow</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#formatting">Formatting</a><ul>
+<li><a class="reference internal" href="#jsx-to-messageformat-transformations">JSX to MessageFormat transformations</a></li>
+<li><a class="reference internal" href="#message-id">Message ID</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plurals">Plurals</a><ul>
+<li><a class="reference internal" href="#english-plural-rules">English plural rules</a></li>
+<li><a class="reference internal" href="#beware-of-zeroes">Beware of zeroes!</a></li>
+<li><a class="reference internal" href="#exact-forms">Exact forms</a></li>
+<li><a class="reference internal" href="#variables-and-components">Variables and components</a></li>
+<li><a class="reference internal" href="#custom-message-id">Custom message ID</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#formats">Formats</a></li>
+<li><a class="reference internal" href="#review">Review</a></li>
+<li><a class="reference internal" href="#further-reading">Further reading</a></li>
+</ul>
+</li>
+</ul>
+</nav></nav></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-components-documentation-page-js","jsonName":"docs-tutorials-react-16b","path":"/docs/tutorials/react"};window.dataPath="651/path---docs-tutorials-react-16-b-1f1-MQQczGfl8NWNVXyMzUYO1bGBciM";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-972b1f161ed65d995355.js"],"component---src-components-documentation-page-js":["/component---src-components-documentation-page-js-f865c6eb913af995db59.js"],"component---src-pages-404-js":["/component---src-pages-404-js-d4de0f25bb976707840f.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ac14ac5188d02dc95c35.js"]};/*]]>*/</script><script src="/webpack-runtime-778bfcb243176a3265a9.js" async=""></script><script src="/app-972b1f161ed65d995355.js" async=""></script><script src="/component---src-components-documentation-page-js-f865c6eb913af995db59.js" async=""></script><script src="/0-83e9d049abd79c8c38d4.js" async=""></script></body></html>
