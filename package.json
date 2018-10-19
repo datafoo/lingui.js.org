@@ -11,7 +11,8 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
-    "format": "prettier --write '**/*.js'"
+    "format": "prettier --write '**/*.js'",
+    "deploy": "gh-pages -d public -m 'Updates [ci skip]'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
